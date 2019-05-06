@@ -1,0 +1,18 @@
+#sourlemonpic {
+  background-image: url("../asset/lemon.jpg");
+  background-size: cover;
+}
+
+#res_manage {
+  background-image: url("../asset/res_manage.jpg");
+  background-size: cover;
+}
+
+#kancolle {
+  background-image: url("../asset/kancolle.jpg");
+  background-size: cover;
+}
+
+.android-color {
+  color: #A4C639;
+}

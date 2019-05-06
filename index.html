@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 
-  <link type="text/css" href="css/carousel.css">
-  <link type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
@@ -221,7 +221,7 @@
       <!--Section: About Me-->
       <section>
 
-        <h3 class="h3 text-center mb-5">Profile</h3>
+        <h2 class="h2 text-center mb-5">Profile</h2>
         <!--Grid row-->
         <div class="row wow fadeIn">
           <!--Grid column-->
@@ -329,78 +329,166 @@
       <!--Section: Web Dev-->
       <section>
 
-        <h2 class="my-5 h3 text-center">Software/Web Development Projects</h2>
+        <h2 class="my-5 h2 text-center">Software/Web Development</h2>
 
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-5">
+
+            <!-- Featured image -->
+
+            <div class="view overlay rounded z-depth-2" id="sourlemonpic">
+              <a href="https://sourlemon47.herokuapp.com/index">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-7">
+
+            <!-- Category -->
+              <h6 class="red-text font-weight-bold mb-3">
+                <i class="fab fa-js pr-2"></i>
+                Web</h6>
+            <!-- Post title -->
+            <h4 class="font-weight-bold mb-3"><strong>Sour Lemon</strong></h4>
+            <!-- Excerpt -->
+            <p>A web app that can read movie information,
+              comment movies, and rate movies.
+              Powered by <a href="https://www.themoviedb.org/">TMDB</a></p>
+            <p>CSC309 Project, by
+              <a href="https://github.com/lihd1003"><strong>Haoda Li</strong></a>,
+              <a href="https://github.com/Hantang-Li"><strong>Hantang Li</strong></a>,
+              <a href="https://github.com/Helenlxy"><strong>Xinyi Liu</strong></a>,
+              <a href="https://github.com/lim142857"><strong>Lim Wei</strong></a>
+            </p>
+            <!-- Read more button -->
+            <a class="btn btn-warning btn-md" href="https://github.com/lihd1003/sour-lemon"><i class="fab fa-github mr-2"></i> GitHub</a>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <hr class="my-5">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-7">
+
+            <!-- Category -->
+
+              <h6 class="font-weight-bold mb-3 android-color"><i class="fab fa-android pr-2"></i>Android / Java</h6>
+            <!-- Post title -->
+            <h4 class="font-weight-bold mb-3"><strong>Restaurant Manager</strong></h4>
+            <!-- Excerpt -->
+            <p>The App allows local supply-chained restaurants to manage their ingredients and menus,
+              as well as adjusting the menus and stocks for each location. Also, it can manage the kitchen, the serving/delivery, calculate the bill,
+              and give statistical summaries.
+            </p>
+            <p>
+              This project is inspired by CSC207 project, and is a migration from JavaFX to Android with refactored code and new feathers.
+              The <a href="https://github.com/mikeig/RestaurantManagerBeta">original course Project</a> is implemented
+              by <a href="https://github.com/mikeig"><strong>Mike Zhu</strong></a>,
+              <a href="https://github.com/Helenlxy"><strong>Xinyi Liu</strong></a>,
+              <a href="https://github.com/Walden-Shen"><strong>Walden Shen</strong></a>, and
+               <a href="https://github.com/lihd1003"><strong>Haoda Li</strong></a>
+
+
+            </p>
+
+            <!-- Read more button -->
+            <a class="btn btn-light-green btn-md" href="https://github.com/lihd1003/Restaurant-Manager-App"><i class="fab fa-github mr-2"></i> GitHub</a>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-5">
+
+            <!-- Featured image -->
+            <div class="view overlay rounded z-depth-2" id="res_manage">
+              <a href="https://github.com/lihd1003/Restaurant-Manager-App">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+  <hr class="my-5">
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-5">
+
+            <!-- Featured image -->
+            <div class="view overlay rounded z-depth-2" id="kancolle">
+              <a href="https://github.com/lihd1003/KanColle-Quest-Records">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-7">
+
+            <!-- Category -->
+              <h6 class="red-text font-weight-bold mb-3">
+                <i class="fab fa-js pr-2"></i>
+                Web</h6>
+            <!-- Post title -->
+            <h4 class="font-weight-bold mb-3"><strong>KanColle Mission Recorder</strong></h4>
+            <!-- Excerpt -->
+            <p>
+              A simple web application to store the information and the personal progress of
+              <a href="http://www.dmm.com/netgame/feature/kancolle.html">Kantai Collection (艦隊これくしょん)</a> missions.
+              Allowing the user to store progress for different accounts. Also, the application supports a monthly report of mission progress.
+            </p>
+            <p>Mission data is obtained from <a href="https://zh.kcwiki.org/wiki/%E4%BB%BB%E5%8A%A1">KCWiki</a> with an included scaper.
+            </p>
+            <!-- Read more button -->
+            <a class="btn btn-light-blue btn-md" href="https://github.com/lihd1003/KanColle-Quest-Records"><i class="fab fa-github mr-2"></i> GitHub</a>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
 
       </section>
-      <!--Section: Web Dev-->
-
-      <hr class="my-5" id="data_report">
-
-      <!--Section: Data-->
-      <section>
-
-        <h2 class="my-5 h3 text-center">Data Analysis and Reports</h2>
-
-
-      </section>
-      <!--Section: Data-->
+      <!-- Section: Blog v.1 -->
 
     </div>
+
+    <hr class="my-5" id="data_report">
+
+    <!--Section: Web Dev-->
+    <section>
+        <h2 class="h2 text-center mb-5">Data Analysis & Reports</h2>
+    </section>
   </main>
   <!--Main layout-->
+
+
 
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
-    <!--Call to action-->
-    <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
-        <i class="fas fa-download ml-2"></i>
-      </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start free tutorial
-        <i class="fas fa-graduation-cap ml-2"></i>
-      </a>
-    </div>
-    <!--/.Call to action-->
 
-    <hr class="my-4">
-
-    <!-- Social icons -->
-    <div class="pb-4">
-      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
-        <i class="fab fa-facebook-f mr-3"></i>
-      </a>
-
-      <a href="https://twitter.com/MDBootstrap" target="_blank">
-        <i class="fab fa-twitter mr-3"></i>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
-
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
-
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
-
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
-
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
-
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
-      </a>
-    </div>
-    <!-- Social icons -->
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
@@ -408,6 +496,7 @@
       <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
     </div>
     <!--/.Copyright-->
+
 
   </footer>
   <!--/.Footer-->
