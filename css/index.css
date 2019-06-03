@@ -16,3 +16,7 @@
 .android-color {
   color: #A4C639;
 }
+
+html {
+  scroll-behavior: smooth;
+}
