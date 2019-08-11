@@ -21,9 +21,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="https://lihd1003.github.io/" role="button">
-                Home
-              </a>
+              <a class="nav-link" onclick="switch_sec('project')">Projects</a></li>
+            <a class="nav-link" onclick="switch_sec('profile')">Profile</a></li>
             </li>
 
           </ul>
@@ -47,7 +46,6 @@
   </header>
   <!-- header -->
 
-  <!-- cover -->
   <section class="hero hero-with-header text-white" data-top-top="transform: translateY(0px);" data-top-bottom="transform: translateY(250px);">
     <div class="image image-overlay" style="background-image:url(./assets/images/black.jpg)"></div>
     <div class="container">
@@ -115,12 +113,12 @@
         <div class="row mt-5" data-aos="fade-up" data-aos-delay="100">
           <div class="col">
             <h2 class="line-spacing text-decorated" style="float: right">
-              <b>Data</b> Collections and Reports
+              <b>Data</b> Reports and Collections
             </h2>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col">
             <article class="news">
               <div class="abox">
@@ -180,8 +178,7 @@
 
   <section class="bg-white sec" id="profile" style="display: none">
     <div class="container">
-
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col">
           <h2 class="line-spacing text-decorated"><b>Profile</b> &nbsp;&nbsp;&nbsp;
             <button type="button" class="btn btn-md btn-with-ico btn-rounded btn-facebook" onclick=" window.open('assets/resume.pdf', '_blank')">
@@ -194,7 +191,7 @@
 
     <div class="container mb-5">
       <div class="row gutter-4">
-        <div class="col-md-12" data-aos="fade-up">
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
           <div class="media">
 
             <div class="media-body">
@@ -208,7 +205,7 @@
         </div>
       </div>
       <div class="row gutter-4">
-        <div class="col-md-12" data-aos="fade-up">
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
           <div class="media">
 
             <div class="media-body">
@@ -226,11 +223,11 @@
     <div class="bg-gray text-white component-example">
       <div class="container">
         <div class="row gutter-4">
-          <div class="col-md-12" data-aos="fade-up">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
             <h5 class="font-weight-bold fs-20 letter-spacing"><i class="icon-suitcase fs-30 text_facebook mr-2"></i>Experiences</h5>
           </div>
           <div class="row gutter-4">
-            <div class="col-md-12" data-aos="fade-up">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
               <div class="accordion-group" data-accordion-group>
                 <div class="accordion" data-accordion>
                   <div class="accordion-control" data-control>
@@ -279,7 +276,7 @@
           </div>
         </div>
       </div>
-
+    </div>
 
   </section>
   <!-- / presentation -->
@@ -293,7 +290,7 @@
   <script>
     const switch_sec = (id) => {
       $(".sec").hide()
-      $("#" + id).show()
+      $("#" + id).fadeIn("slow")
     }
   </script>
 </body>
