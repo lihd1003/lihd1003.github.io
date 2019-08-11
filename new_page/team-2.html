@@ -57,31 +57,34 @@
           <p class="lead">Undergrad Student at U of Toronto</p>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item">Visualization Tools</li>
-              <li class="breadcrumb-item">Data Analysis</li>
-              <li class="breadcrumb-item">Web Development</li>
+              <li class="breadcrumb-item"><a onclick="switch_sec('project')">Projects</a></li>
+              <li class="breadcrumb-item"><a onclick="switch_sec('profile')">Profile</a></li>
             </ol>
           </nav>
         </div>
       </div>
     </div>
+  </section>
 
-
+  <section class="bg-white sec" id="project">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col">
-          <h2 class="line-spacing text-decorated" style="float: right">PROJECTS AND SHOWCASES
+          <h2 class="line-spacing text-decorated">
+            <b>Projects</b> Repos
           </h2>
         </div>
       </div>
-      <div class="row gutter-0">
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+
+
+      <div class="row gutter-2">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <figure class="user">
             <a class="user-photo">
               <img src="./assets/images/sour_lemon.png" alt="Avatar">
             </a>
             <figcaption class="user-caption">
-              <h5>Sour Lemon &nbsp;<span class="bordered">&nbsp;<i class="fab fa-js"></i> <i class="fab fa-npm"></i>&nbsp;</span></h5>
+              <h4>Sour Lemon &nbsp;<span class="bordered">&nbsp;<i class="fab fa-js"></i> <i class="fab fa-npm"></i>&nbsp;</span></h4>
               <ul class="socials bordered">
                 <li><a href="https://sourlemon47.herokuapp.com/index" class="icon-external-link fs-20"></a></li>
                 <li><a href="https://github.com/lihd1003/sour-lemon" class="icon-github fs-20"></a></li>
@@ -90,27 +93,13 @@
           </figure>
         </div>
 
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <figure class="user">
             <a class="user-photo">
               <img src="./assets/images/zuikaku.png" alt="Avatar">
             </a>
             <figcaption class="user-caption">
-              <h5>Zuikaku Fleet + &nbsp;<span class="bordered">&nbsp;<i class="fab fa-js"></i> <i class="fab fa-react"></i>&nbsp;</span></h5>
-              <ul class="socials bordered">
-                <li><a href="https://github.com/lihd1003/sour-lemon" class="icon-github fs-20"></a></li>
-              </ul>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-          <figure class="user">
-            <a class="user-photo">
-              <img src="./assets/images/zuikaku.png" alt="Avatar">
-            </a>
-            <figcaption class="user-caption">
-              <h5>Zuikaku Fleet + &nbsp;<span class="bordered">&nbsp;<i class="fab fa-js"></i> <i class="fab fa-react"></i>&nbsp;</span></h5>
+              <h4>Zuikaku Fleet + &nbsp;<span class="bordered">&nbsp;<i class="fab fa-js"></i> <i class="fab fa-react"></i>&nbsp;</span></h4>
               <ul class="socials bordered">
                 <li><a href="https://github.com/lihd1003/sour-lemon" class="icon-github fs-20"></a></li>
               </ul>
@@ -119,22 +108,91 @@
         </div>
 
       </div>
+
+    </div>
+    <div class="component-example bg-gray text-white mt-5">
+      <div class="container mt-5">
+        <div class="row mt-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="col">
+            <h2 class="line-spacing text-decorated" style="float: right">
+              <b>Data</b> Collections and Reports
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <article class="news">
+              <div class="abox">
+                <a href="https://lihd1003.github.io/Data-Science-Reports/A1/A1.pdf">
+                  <h3 class="news-title">Analysis of Global Life Expectancy At Birth from 2013 - 2018</h3>
+                </a>
+                <time>
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A1/A1.pdf"><i class="fas fa-file-pdf fs-20 text-secondary"></i></a>&nbsp;&nbsp;
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A1/A1.html"><i class="fas fa-file-code fs-20"></i></a>&nbsp;&nbsp;
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A1/A1.ipynb"><i class="fab fa-python fs-20"></i></a>&nbsp;&nbsp;
+                </time>
+              </div>
+            </article>
+
+            <article class="news">
+              <div class="abox">
+                <a href="https://lihd1003.github.io/Data-Science-Reports/A2/A2.pdf">
+                  <h3 class="news-title">Analysis of Yelp data</h3>
+                </a>
+                <time>
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A2/A2.pdf"><i class="fas fa-file-pdf fs-20"></i></a>&nbsp;&nbsp;
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A2/A2.html"><i class="fas fa-file-code fs-20"></i></a>&nbsp;&nbsp;
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A2/A2.ipynb"><i class="fab fa-python fs-20"></i></a>&nbsp;&nbsp;
+                </time>
+              </div>
+            </article>
+
+            <article class="news">
+              <div class="abox">
+                <a href="https://lihd1003.github.io/Data-Science-Reports/A3/A3.pdf">
+                  <h3 class="news-title">How to reduce idling time for commercial vehicles in Toronto</h3>
+                </a>
+                <time>
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A3/A3.pdf"><i class="fas fa-file-pdf fs-20"></i></a>&nbsp;&nbsp;
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A3/A3.pdf"><i class="fas fa-file-code fs-20"></i></a>&nbsp;&nbsp;
+                  <a href="https://lihd1003.github.io/Data-Science-Reports/A3/A3.pdf"><i class="fab fa-python fs-20"></i></a>&nbsp;&nbsp;
+                </time>
+              </div>
+            </article>
+
+            <article class="news">
+              <div class="abox">
+                <a>
+                  <h3 class="news-title">Characteristic Predictions on Texas Hotel Occupancy Tax Evasion</h3>
+                </a>
+                <time>
+                  <a href="https://github.com/lihd1003/Booking.com-Scraper"><i class="fas fa-server fs-20"></i></a>&nbsp;&nbsp;
+
+                </time>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- / team -->
 
-  <section class="bg-white">
+  <section class="bg-white sec" id="profile" style="display: none">
     <div class="container">
 
       <div class="row">
         <div class="col">
-          <h2 class="line-spacing text-decorated">PROFILE &nbsp;&nbsp;&nbsp;
+          <h2 class="line-spacing text-decorated"><b>Profile</b> &nbsp;&nbsp;&nbsp;
             <button type="button" class="btn btn-md btn-with-ico btn-rounded btn-facebook" onclick=" window.open('assets/resume.pdf', '_blank')">
               Print Resume<i class="icon-download"></i>
             </button>
           </h2>
         </div>
       </div>
+    </div>
+
+    <div class="container mb-5">
       <div class="row gutter-4">
         <div class="col-md-12" data-aos="fade-up">
           <div class="media">
@@ -148,66 +206,81 @@
             </div>
           </div>
         </div>
-
-
+      </div>
+      <div class="row gutter-4">
         <div class="col-md-12" data-aos="fade-up">
           <div class="media">
 
             <div class="media-body">
               <h5 class="mt-0 text-facebook font-weight-bold fs-20 letter-spacing"><i class="icon-code fs-30 text_facebook mr-2"></i>Skills</h5>
-
               <p><b class="letter-spacing">Data Analysis</b> &nbsp;&nbsp;Data Mining, Big Data Handling, Data Base Management, Data Processing Through ML, CV, NLP</p>
               <p><b class="letter-spacing">Software Engineering</b> &nbsp;&nbsp;Full Stack Web Development, Android Development, Project Management</p>
               <p><b class="letter-spacing">Data Reporting and Presentation</b> &nbsp;&nbsp;Data Visualization, Perceptive and Interactive Design</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <br>
-        <div class="col-md-12" data-aos="fade-up">
-          <div class="media">
 
-            <div class="media-body">
-              <h5 class="mt-0 text-facebook font-weight-bold fs-20 letter-spacing"><i class="icon-suitcase fs-30 text_facebook mr-2"></i>Experiences</h5>
-            </div>
+    <div class="bg-gray text-white component-example">
+      <div class="container">
+        <div class="row gutter-4">
+          <div class="col-md-12" data-aos="fade-up">
+            <h5 class="font-weight-bold fs-20 letter-spacing"><i class="icon-suitcase fs-30 text_facebook mr-2"></i>Experiences</h5>
           </div>
-        </div>
-        <div class="col-md-6" data-aos="fade-up">
-          <div class="media">
-            <div class="media-body">
-              <h5 class="mt-0 text-dark font-weight-bold fs-16 letter-spacing">Data Scientist</h5>
-              <p>Sept. 2019 - Present. <b>&nbsp;<a href="http://www.easygroup.ca/en_index.html" class="letter-spacing text-info">Easy Group Inc.</a></b></p>
-              <p>Created and managed the user profile database for management and analysis</p>
-              <p>Conducted analysis on sales, proposed the market prediction and pricing model</p>
-              <p>Automated the user interests tracking process, allowed more motivative promotions on individual clients</p>
+          <div class="row gutter-4">
+            <div class="col-md-12" data-aos="fade-up">
+              <div class="accordion-group" data-accordion-group>
+                <div class="accordion" data-accordion>
+                  <div class="accordion-control" data-control>
+                    <h5 class="font-weight-bold fs-16 letter-spacing">Data Scientist</h5>
+                    <p>Sept. 2019 - Present. <b>&nbsp;<a href="http://www.easygroup.ca/en_index.html" class="letter-spacing text-info">Easy Group Inc.</a></b></p>
+                  </div>
+                  <div class="accordion-content" data-content>
+                    <div class="accordion-content-wrapper">
+                      <p>Created and managed the user profile database for management and analysis</p>
+                      <p>Conducted analysis on sales, proposed the market prediction and pricing model</p>
+                      <p>Automated the user interests tracking process, allowed more motivative promotions on individual clients</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion" data-accordion>
+                  <div class="accordion-control" data-control>
+                    <h5 class="font-weight-bold fs-16 letter-spacing">Full Stack Developer</h5>
+                    <p>April. 2019 - Aug. 2019. <b>&nbsp;<a class="letter-spacing text-info" href="http://www.ez4edu.com/">Easy Eduction</a></b></p>
+                  </div>
+                  <div class="accordion-content" data-content>
+                    <div class="accordion-content-wrapper">
+                      <p>Managed and maintained the company's various websites, online applications, and database.</p>
+                      <p>Along with the graphical design team, created <a class="text-info" href="https://ezwecare.ca/">WeCare</a> project</p>
+                      <p>Optimized and rebased the company's cloud servers, helped to reduce the service cost by 60%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion" data-accordion>
+                  <div class="accordion-control" data-control>
+                    <h5 class="font-weight-bold fs-16 letter-spacing">Research Assistant</h5>
+                    <p>May. 2019 - Present. <b>&nbsp;<span class="letter-spacing">Department of Economics, UofT</span></b></p>
+                  </div>
+                  <div class="accordion-content" data-content>
+                    <div class="accordion-content-wrapper">
+                      <p>Assisted Prof. Yao Luo's research project on hotel occupancy tax evasion in Texas</p>
+                      <p>Tracked Texas accommodation occupancy data from various online platforms, including Airbnb, Booking.com, Expedia</p>
+                      <p>Analyzed occupancy data and made revenue models to predict the actual revenue of Texas accommodation</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6" data-aos="fade-up">
-          <div class="media">
-            <div class="media-body">
-              <h5 class="mt-0 text-dark font-weight-bold fs-16 letter-spacing">Full Stack Developer</h5>
-              <p>April. 2019 - Aug. 2019. <b>&nbsp;<a class="letter-spacing text-info" href="http://www.ez4edu.com/">Easy Eduction</a></b></p>
-              <p>Managed and maintained the company's various websites, online applications, and database.</p>
-              <p>Along with the graphical design team, created <a class="text-info" href="https://ezwecare.ca/">WeCare</a> project</p>
-              <p>Optimized and rebased the company's cloud servers, helped to reduce the service cost by 60%</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-6" data-aos="fade-up">
-          <div class="media">
-            <div class="media-body">
-              <h5 class="mt-0 text-dark font-weight-bold fs-16 letter-spacing">Research Assistant</h5>
-              <p>May. 2019 - Present. <b>&nbsp;<span class="letter-spacing">Department of Economics, UofT</span></b></p>
-              <p>Assisted Prof. Yao Luo's research project on hotel occupancy tax evasion in Texas</p>
-              <p>Tracked Texas accommodation occupancy data from various online platforms, including Airbnb, Booking.com, Expedia</p>
-              <p>Analyzed occupancy data and made revenue models to predict the actual revenue of Texas accommodation</p>
-            </div>
+
+
           </div>
         </div>
       </div>
-    </div>
+
+
   </section>
   <!-- / presentation -->
 
@@ -216,6 +289,13 @@
 
   <script src="./assets/js/vendor.js"></script>
   <script src="./assets/js/app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    const switch_sec = (id) => {
+      $(".sec").hide()
+      $("#" + id).show()
+    }
+  </script>
 </body>
 
 </html>
