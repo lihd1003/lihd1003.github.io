@@ -15841,7 +15841,6 @@ footer {
   -webkit-transition-delay: 0s;
   -moz-transition-delay: 0s;
   transition-delay: 0s;
-  border-radius: 0.25rem;
   position: relative;
   overflow: hidden;
   -webkit-mask-image: -webkit-radial-gradient(white, black); }
