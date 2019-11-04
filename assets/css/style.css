@@ -3596,6 +3596,7 @@ input[type="button"].btn-block {
   align-items: flex-start; }
 
 .media-body {
+  width: 100%;
   flex: 1; }
 
 .list-group {
