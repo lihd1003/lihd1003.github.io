@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
 
+
+.breadcrumb-item a, .nav-item a {
+  cursor: pointer;
+}
 .dentry-name {
   white-space: nowrap;
   overflow: hidden;
